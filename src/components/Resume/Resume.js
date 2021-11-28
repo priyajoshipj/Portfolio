@@ -6,31 +6,20 @@ import Resumecontent from "./ResumeContent";
 import axios from "axios";
 import pdf from "../../Assets/priya_joshi.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page } from "react-pdf";
+import priya from "../../Assets/priya_joshi.jpg"
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+ 
 
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <Container fluid className="resume-section">
-      <Particle />
+      hihihi
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
@@ -38,8 +27,17 @@ function Resume() {
             &nbsp;Download CV
           </Button>
         </Row>
-        <Row className="resume">
-          <Col md={6} className="resume-left">
+        <Row>
+        hihi  <img src={priya} alt={"Resume"} />
+        {/* <a href="../../Assets/priya_joshi.pdf">example</a> */}
+          {/* <Document file="pdf.pdf" onLoadSuccess={pdf}>
+            <Page pageNumber={pageNumber} />
+          </Document>
+          <p>
+            Page {pageNumber} of {numPages}
+          </p> */}
+
+          {/* <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Frontend Developer Intern [Flash Tech]"
@@ -86,7 +84,7 @@ function Resume() {
                 "Participant in Hack-A-Bit 2019",
               ]}
             />
-          </Col>
+          </Col> */}
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
