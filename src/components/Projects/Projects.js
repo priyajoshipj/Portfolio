@@ -7,6 +7,10 @@ import todo from "../../Assets/Projects/todo.png";
 import chatroom from "../../Assets/Projects/chatroom.png";
 import port from "../../Assets/Projects/port.png";
 import blog from "../../Assets/Projects/blog.png";
+import starship from "../../Assets/Projects/startship.png";
+import cardmanager from "../../Assets/Projects/cardmanager.png";
+import exchangeProto from "../../Assets/Projects/exchangeProto.png";
+
 
 function Projects() {
   return (
@@ -30,6 +34,37 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={starship}
+              isBlog={false}
+              title="Starship"
+              description="This is the starship app where user can search star ship do CRUD operation and select favorite star. Tech Stack : React.js, React-Redux, Node.js, socket.io, HTML-5 , CSS-3, Bootstrap."
+              link="https://github.com/priyajoshipj/Starship"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exchangeProto}
+              isBlog={false}
+              title="Exchange Proto"
+              description="This is the exchange proto web-app which allow user to provide real time of stock market graph. Tech Stack : React.js, React-Redux, HTML-5 , CSS-3, material ui."
+              link="https://github.com/priyajoshipj/exchange-proto"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cardmanager}
+              isBlog={false}
+              title="Card manager"
+              description="This is the card manager app where user can add card manage card and do add sub task of any category. Tech Stack : React.js, React-Redux, Node.js, socket.io, HTML-5 , CSS-3, Bootstrap."
+              link="https://github.com/priyajoshipj/CardManager"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
