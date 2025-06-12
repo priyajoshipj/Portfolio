@@ -1,0 +1,328 @@
+{
+    "navItems": [
+        {
+            "id": "home",
+            "label": "Home"
+        },
+        {
+            "id": "about",
+            "label": "About"
+        },
+        {
+            "id": "skills",
+            "label": "Skills"
+        },
+        {
+            "id": "experience",
+            "label": "Experience"
+        },
+        {
+            "id": "projects",
+            "label": "Projects"
+        },
+        {
+            "id": "contact",
+            "label": "Contact"
+        }
+    ],
+    "frontendSkills": [
+        {
+            "name": "JavaScript (ES6+)",
+            "level": 95
+        },
+        {
+            "name": "TypeScript",
+            "level": 90
+        },
+        {
+            "name": "React",
+            "level": 95
+        },
+        {
+            "name": "Redux",
+            "level": 85
+        },
+        {
+            "name": "Next.js",
+            "level": 90
+        },
+        {
+            "name": "HTML5/CSS3",
+            "level": 90
+        },
+        {
+            "name": "Tailwind CSS",
+            "level": 85
+        }
+    ],
+    "backendSkills": [
+        {
+            "name": "Node.js",
+            "level": 85
+        },
+        {
+            "name": "Express",
+            "level": 80
+        },
+        {
+            "name": "GraphQL",
+            "level": 75
+        },
+        {
+            "name": "REST API",
+            "level": 90
+        },
+        {
+            "name": "SQL",
+            "level": 80
+        }
+    ],
+    "toolsSkills": [
+        {
+            "name": "Git",
+            "level": 90
+        },
+        {
+            "name": "Jenkins",
+            "level": 75
+        },
+        {
+            "name": "Storybook",
+            "level": 70
+        },
+        {
+            "name": "CI/CD",
+            "level": 85
+        },
+        {
+            "name": "WAI-ARIA (a11y)",
+            "level": 85
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "SigFig",
+            "period": "Jan 2023 – Present",
+            "location": "Remote",
+            "achievements": [
+                "Integrated onboarding flow for IRA Retirement, beneficiary, and deceased accounts using React.js and TypeScript in the existing application, accelerating feature rollout by 40% and improving user onboarding experience.",
+                "Used Storybook to design and document front-end components, enabling stakeholders to preview UI/UX early in the development cycle, reducing design-to-development feedback loops and increasing UI development speed by 30%.",
+                "Collaborated closely with cross-functional teams during product design discussions and performed peer code reviews, ensuring scalable and maintainable front-end architecture while reducing post-release bugs by 20%.",
+                "Collaborated on automated CI/CD pipelines using Jenkins and Git, enabling faster front-end deployments and streamlining release cycles, reducing deployment time by 50%.",
+                "Leveraged AI-powered coding tools like GitHub Copilot and Cursor to accelerate development, reduce boilerplate code, and improve implementation speed, boosting front-end delivery by 25%.",
+                "Implemented micro-frontend architecture to modularize services and decouple feature deployments, enabling independent development and faster releases across teams, resulting in a 35% improvement in build scalability and deployment flexibility.    "
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Magic EdTech",
+            "period": "Jun 2021 – Nov 2022",
+            "location": "Remote",
+            "achievements": [
+                "Architected reusable React.js components with Storybook, reducing development time and improving stakeholder feedback cycles.",
+                "Developed accessible education platform using TDD methodology and WAI-ARIA guidelines, achieving 98% accessibility compliance.",
+                "Designed scalable HOCs patterns core project, improving component reusability in another partner and reducing codebase by 20%."
+            ]
+        },
+        {
+            "title": "Junior Software Developer",
+            "company": "Koenig Solutions",
+            "period": "Apr 2019 – Jun 2021",
+            "location": "Delhi, India",
+            "achievements": [
+                "Modernized a legacy ASP-based application by migrating to a modern React and Node.js stack, leveraging lazy loading and code splitting to reduce page load times by 50%.",
+                "Developed an automated billing system using React.js and REST APIs, reducing manual invoicing time by 70% and streamlining financial reporting with real-time bad debt tracking.",
+                "Built reusable UI components and internal design patterns for React apps, increasing front-end development efficiency and reducing duplicate code by 25%.",
+                "Collaborated with QA and backend teams to resolve cross-functional bugs and improve API reliability, contributing to a 15% reduction in production issues.",
+                "Assisted in database schema design and query optimization using MySQL, improving performance of key reporting dashboards by 30%.",
+                "Contributed to internal tools such as an employee attendance dashboard and training management portal, improving internal operations and tracking accuracy.",
+                "Maintained legacy systems while gradually integrating modern front-end enhancements, ensuring business continuity and stakeholder satisfaction during migration."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Email OTP Verification System",
+            "description": "A secure, modern two-step email verification system with a 5-minute OTP expiration built using Next.js 13+, TypeScript, and Tailwind CSS.",
+            "keyFeatures": [
+                "Email OTP Verification: Secure two-step verification process",
+                "Modern UI: Clean and responsive design using Tailwind CSS",
+                "Type Safety: Built with TypeScript for better development experience",
+                "Real-time Feedback: Immediate user feedback for all actions",
+                "Security: 5-minute OTP expiration",
+                "Email Integration: Powered by Resend for reliable email delivery"
+            ],
+            "technologies": [
+                "Next.js 13",
+                "TypeScript",
+                "Tailwind CSS",
+                "Resend API",
+                "React Hooks",
+                "Git",
+                "SQL Server (if applicable)"
+            ],
+            "gradient": "from-purple-500 to-pink-500",
+            "icon": "Lock",
+            "gitSource": "https://github.com/priyajoshipj/otp-verification",
+            "liveUrl": "https://otp-verification-mu-ten.vercel.app"
+        },
+        {
+            "title": "AI Chat Assistant",
+            "description": "Built a modern, real-time AI chatbot using Next.js with OpenRouter AI integration. Supports multiple cutting-edge AI models like Llama, DeepSeek, and Mistral for seamless conversations.",
+            "keyFeatures": [
+                "Real-time chat interface with message history",
+                "Multi-model support with fallback mechanism",
+                "Modern UI with smooth animations and responsive design",
+                "Secure API key authentication"
+            ],
+            "technologies": [
+                "Next.js 14",
+                "TypeScript",
+                "React Hooks",
+                "CSS3",
+                "OpenRouter AI",
+                "API Integration",
+                "Git"
+            ],
+            "gradient": "from-purple-500 to-indigo-500",
+            "icon": "MessageSquare",
+            "gitSource": "https://github.com/priyajoshipj/chat-bot",
+            "liveUrl": "https://chat-bot-sable-iota.vercel.app/"
+        },
+        {
+            "title": "Weather Forecast Application",
+            "description": "Built a responsive weather application that enables users to search cities and view real-time weather data along with a 5-day forecast. Utilized Open-Meteo APIs for geolocation and weather information.",
+            "keyFeatures": [
+                "Autocomplete city search",
+                "Current temperature, humidity, wind, and precipitation data",
+                "5-day weather forecast in responsive card layout",
+                "Instant reloads and fast build using Vite",
+                "Responsive design for mobile and desktop",
+                "Unit tested with Jest and React Testing Library"
+            ],
+            "technologies": [
+                "React",
+                "Vite",
+                "Open-Meteo API",
+                "Axios",
+                "Jest",
+                "React Testing Library",
+                "CSS Modules",
+                "Git"
+            ],
+            "gradient": "from-indigo-400 to-blue-400",
+            "icon": "CloudSun",
+            "gitSource": "https://github.com/priyajoshipj/weather-app",
+            "liveUrl": "https://weather-app-ten-smoky-65.vercel.app/"
+        },
+        {
+            "title": "Photo Booth Collage App",
+            "description": "Built an interactive web application allowing users to take four sequential photos using their camera and generate a fun, sharable photo collage. Supports beautiful layout compositions and real-time camera interaction.",
+            "keyFeatures": [
+                "Camera access and live preview",
+                "Four-photo capture sequence",
+                "Automatic collage generation",
+                "Responsive UI for mobile and desktop",
+                "Instant photo retake option"
+            ],
+            "technologies": [
+                "Next.js",
+                "React",
+                "JavaScript",
+                "Tailwind CSS",
+                "Vercel",
+                "Git"
+            ],
+            "gradient": "from-purple-500 to-pink-500",
+            "icon": "Camera",
+            "gitSource": "https://github.com/priyajoshipj/photo-booth",
+            "liveUrl": "photo-booth-seven-pi.vercel.app/"
+        },
+        {
+            "title": "Portfolio Status Dashboard",
+            "description": "Built an interactive portfolio analysis dashboard with real-time investment tracking, asset-wise performance charts, and monthly summaries. Designed for efficient financial insights and transparent reporting.",
+            "keyFeatures": [
+                "Monthly portfolio performance summary",
+                "Dynamic chart visualization (bar & line charts)",
+                "Asset allocation and comparison",
+                "Responsive and accessible dashboard UI"
+            ],
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Chart.js",
+                "Tailwind CSS",
+                "Git",
+                "Vercel"
+            ],
+            "gradient": "from-indigo-500 to-purple-500",
+            "icon": "BarChart2",
+            "gitSource": "https://github.com/priyajoshipj/Portfolio-Status",
+            "liveUrl": "portfolio-status-aqaz.vercel.app"
+        },
+        {
+            "title": "Portfolio Management Platform",
+            "description": "Developed financial management tool with real-time portfolio tracking & client onboarding. Implemented advanced analytics for investment compare & tracking.",
+            "keyFeatures": [
+                "Real-time portfolio tracking",
+                "Client onboarding system",
+                "Investment analytics",
+                "Performance comparison tools"
+            ],
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "GraphQL",
+                "REST API",
+                "Git",
+                "Storybook"
+            ],
+            "gradient": "from-blue-400 to-cyan-400",
+            "icon": "Database"
+        },
+        {
+            "title": "AMS - Accounts Management System",
+            "description": "Created Account Management System that handles billing functionality including invoice generation, account statement uploads and detailed deposit account summaries history.",
+            "keyFeatures": [
+                "Invoice generation",
+                "Account statement management",
+                "Financial analytics",
+                "Bad debt monitoring"
+            ],
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Material UI",
+                "Node.js",
+                "REST API",
+                "SQL Server",
+                "Git",
+                "Storybook"
+            ],
+            "gradient": "from-purple-400 to-pink-400",
+            "icon": "Settings"
+        },
+        {
+            "title": "BookTook - Educational Platform",
+            "description": "Developed an interactive learning platform with containerized micro-frontend architecture. Ensured WCAG-compliant accessibility for inclusive learning experiences.",
+            "keyFeatures": [
+                "Interactive learning modules",
+                "Micro-frontend architecture",
+                "WCAG compliance",
+                "Responsive design"
+            ],
+            "technologies": [
+                "React",
+                "Node.js",
+                "Express",
+                "SQL",
+                "Bootstrap",
+                "Git"
+            ],
+            "gradient": "from-green-400 to-emerald-400",
+            "icon": "Code"
+        }
+    ]
+}
