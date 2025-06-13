@@ -30,6 +30,10 @@
             "name": "JavaScript (ES6+)",
             "level": 95
         },
+         {
+            "name": "Apollo Client Graphql",
+            "level": 75
+        },
         {
             "name": "TypeScript",
             "level": 90
@@ -63,10 +67,6 @@
         {
             "name": "Express",
             "level": 80
-        },
-        {
-            "name": "GraphQL",
-            "level": 75
         },
         {
             "name": "REST API",
