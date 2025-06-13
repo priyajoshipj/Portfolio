@@ -122,7 +122,10 @@
             "achievements": [
                 "Architected reusable React.js components with Storybook, reducing development time and improving stakeholder feedback cycles.",
                 "Developed accessible education platform using TDD methodology and WAI-ARIA guidelines, achieving 98% accessibility compliance.",
-                "Designed scalable HOCs patterns core project, improving component reusability in another partner and reducing codebase by 20%."
+                "Designed scalable HOCs patterns core project, improving component reusability in another partner and reducing codebase by 20%.",
+                " Developed test-driven component and clean code using jest and react testing library for education tools and games to enrich the teaching and learning process. Also, integrate Web accessibility with web app using WAI guideline.",
+                "Well communication with team members to solve any accessibility or logical barriers discussing daily activities in the daily scrum stand up.",
+                "Develop and maintain web and mobile front ends application on JavaScript framework like react.js and analyze and employ problem-solving skills to recommend the best solution."
             ]
         },
         {
