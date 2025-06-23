@@ -146,6 +146,36 @@
     ],
     "projects": [
         {
+    "title": "AI-Powered Educational Games Platform",
+    "description": "A comprehensive, personalized learning platform that generates custom educational content using multiple AI models, featuring interactive quizzes, progress tracking, and email result sharing built with Next.js 15, TypeScript, and MongoDB.",
+    "keyFeatures": [
+        "AI Question Generation: Multi-model AI system with automatic fallback for reliable content creation",
+        "Personalized Learning: Customizable subjects, difficulty levels, and grade-specific content",
+        "Interactive Quiz System: Multiple question types (true/false, multiple choice, short answer)",
+        "Progress Tracking: Detailed analytics with subject-wise performance breakdown",
+        "Email Integration: Automatic result sharing with parents via email",
+        "Responsive Design: Modern UI that works seamlessly across all devices",
+        "Custom Questions: Parents can add their own questions for specific topics",
+        "Real-time Scoring: Instant feedback and performance calculation"
+    ],
+    "technologies": [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "MongoDB",
+        "Mongoose",
+        "Firebase",
+        "Tailwind CSS",
+        "Axios",
+        "Multiple AI APIs",
+        "Nodemailer"
+    ],
+    "gradient": "from-blue-500 to-indigo-600",
+    "icon": "GraduationCap",
+    "gitSource": "https://github.com/priyajoshipj/education-game",
+    "liveUrl": "https://education-game-xi.vercel.app"
+},
+        {
             "title": "Email OTP Verification System",
             "description": "A secure, modern two-step email verification system with a 5-minute OTP expiration built using Next.js 13+, TypeScript, and Tailwind CSS.",
             "keyFeatures": [
