@@ -145,6 +145,61 @@
         }
     ],
     "projects": [
+
+        {
+    "title": "Latency-Topology-Visualizer",
+    "description": "A demonstration tool that visualizes cryptocurrency exchange locations on an interactive 3D globe with simulated latency metrics. Features include real exchange data from CoinGecko API, interactive filtering, performance dashboards, and responsive design. Built with Next.js 14, TypeScript, Material-UI, and react-globe.gl.",
+    "keyFeatures": [
+       
+ " 3D globe visualization - Interactive 3D globe using react-globe.gl (WebGL/Three.js)- Exchange markers on the globe
+- Connection arcs between exchanges
+- Camera controls: rotate, zoom, pan
+- Click exchanges to focus the camera " ,
+
+ " Real exchange data
+- Fetches top 15 cryptocurrency exchanges from CoinGecko API
+- Real exchange names and geographic locations
+- Automatic fallback to mock data if API is unavailable " ,
+
+ " Interactive filtering and controls
+- Filter by cloud provider (AWS, GCP, Azure, Private)
+- Filter by specific exchanges
+- Adjustable latency range threshold slider
+- Toggle visibility of exchanges and connections " ,
+
+ " Performance metrics dashboard
+- Average latency metrics
+- Packet loss percentages
+- Active connections count
+- API credits usage tracking
+- Latency alerts system
+- 24-hour latency trend chart " , 
+
+ " User experience
+- Responsive design (mobile and desktop)
+- Dark theme optimized for data visualization
+- Export data as JSON
+- Real-time FPS counter
+- Smooth animations and transitions " , 
+
+ " Technical features - TypeScript for type safet - State management with Zustand
+- Data fetching with TanStack Query
+- Material-UI components
+- Next.js 14 App Router ",
+
+    ],
+    "technologies": [
+        "Next.js 14",
+        "React 19",
+        "TypeScript",
+        "MUI"
+        "Tailwind",
+    ],
+    "gradient": "from-blue-500 to-indigo-600",
+    "icon": "GraduationCap",
+    "gitSource": "https://github.com/priyajoshipj/Latency-Topology-Visualizer",
+    "liveUrl": "https://latency-topology-visualizer-sable.vercel.app"
+},
         {
     "title": "AI-Powered Educational Games Platform",
     "description": "A comprehensive, personalized learning platform that generates custom educational content using multiple AI models, featuring interactive quizzes, progress tracking, and email result sharing built with Next.js 15, TypeScript, and MongoDB.",
