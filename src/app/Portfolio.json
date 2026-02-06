@@ -102,17 +102,19 @@
     "experiences": [
         {
             "title": "Senior Software Engineer",
-            "company": "SigFig",
+            "company": "Tandems.AI (formerly sigfig)",
             "period": "Jan 2023 – Present",
             "location": "Remote",
-            "achievements": [
-                "Integrated onboarding flow for IRA Retirement, beneficiary, and deceased accounts using React.js and TypeScript in the existing application, accelerating feature rollout by 40% and improving user onboarding experience.",
-                "Used Storybook to design and document front-end components, enabling stakeholders to preview UI/UX early in the development cycle, reducing design-to-development feedback loops and increasing UI development speed by 30%.",
-                "Collaborated closely with cross-functional teams during product design discussions and performed peer code reviews, ensuring scalable and maintainable front-end architecture while reducing post-release bugs by 20%.",
-                "Collaborated on automated CI/CD pipelines using Jenkins and Git, enabling faster front-end deployments and streamlining release cycles, reducing deployment time by 50%.",
-                "Leveraged AI-powered coding tools like GitHub Copilot and Cursor to accelerate development, reduce boilerplate code, and improve implementation speed, boosting front-end delivery by 25%.",
-                "Implemented micro-frontend architecture to modularize services and decouple feature deployments, enabling independent development and faster releases across teams, resulting in a 35% improvement in build scalability and deployment flexibility.    "
-            ]
+       "achievements": [
+  "Engineered an end-to-end onboarding flow for IRA Retirement, beneficiary, and deceased accounts using React.js and TypeScript, designing a 12-screen user journey that accelerated feature rollout by 40% and improved account activation rates by 15%.",
+  "Built a production-grade component library using React, TypeScript, and Storybook, establishing a shared design system across 20+ reusable components and reducing development time by 30% for a 5-engineer team.",
+  "Accelerated frontend delivery by 25% through AI-augmented workflows leveraging Claude AI, Cursor IDE, and MCP for automated code generation, debugging, and documentation, including RAG-based context-aware suggestions.",
+  "Collaborated with product and engineering stakeholders on system design for real-time data delivery, implementing webhooks, Server-Sent Events (SSE), and polling strategies that reduced dashboard latency by 50% and improved experience for 1,000+ concurrent users.",
+  "Architected a micro-frontend infrastructure to decouple feature deployments across four modular services, enabling independent team workflows and improving build scalability by 35%.",
+  "Established Test-Driven Development (TDD) practices across the frontend team using Jest and React Testing Library, achieving 85% code coverage through peer reviews and comprehensive testing, reducing production bugs by 45% quarter-over-quarter.",
+  "Optimized React application performance through code splitting, lazy loading, and React.memo, reducing bundle size by 35% and improving Time to Interactive by 50% for financial dashboards."
+]
+
         },
         {
             "title": "Software Engineer",
@@ -120,12 +122,12 @@
             "period": "Jun 2021 – Nov 2022",
             "location": "Remote",
             "achievements": [
-                "Architected reusable React.js components with Storybook, reducing development time and improving stakeholder feedback cycles.",
-                "Developed accessible education platform using TDD methodology and WAI-ARIA guidelines, achieving 98% accessibility compliance.",
-                "Designed scalable HOCs patterns core project, improving component reusability in another partner and reducing codebase by 20%.",
-                " Developed test-driven component and clean code using jest and react testing library for education tools and games to enrich the teaching and learning process. Also, integrate Web accessibility with web app using WAI guideline.",
-                "Well communication with team members to solve any accessibility or logical barriers discussing daily activities in the daily scrum stand up.",
-                "Develop and maintain web and mobile front ends application on JavaScript framework like react.js and analyze and employ problem-solving skills to recommend the best solution."
+ "Architected an accessible education platform adhering to WCAG 2.1 AAA and WAI-ARIA guidelines, achieving 98% accessibility compliance and enabling 10,000+ students with disabilities to independently access interactive learning content.",
+  "Built a reusable component library using React.js and Storybook, reducing development time by 25% and accelerating stakeholder feedback through interactive UI/UX prototypes prior to production deployment.",
+  "Developed 30+ interactive educational games and simulations using Test-Driven Development (TDD) with Jest and React Testing Library, maintaining 85% test coverage across K–12 curriculum features.",
+  "Designed scalable Higher-Order Components (HOCs) for authentication, data fetching, and analytics tracking, improving component reusability across three partner projects and reducing duplicate code by 20%.",
+  "Built SEO-optimized marketing pages using Vue.js with server-side rendering, improving search rankings by 40% and achieving 40% faster initial page loads, contributing to a 25% increase in organic traffic.",
+  "Collaborated in Agile ceremonies with cross-functional teams of 8+ members, effectively communicating accessibility requirements and technical constraints during sprint planning and daily stand-ups."
             ]
         },
         {
